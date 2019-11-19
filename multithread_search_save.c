@@ -25,7 +25,7 @@ void* ThreadSearch(void* args) { //This is linear search function. It will be ru
       }
      //exit(-1);    
    }
-         pthread_exit(&i);
+         pthread_exit(NULL);
 
 }
 
@@ -57,6 +57,4 @@ int main() {
 pthread_exit(NULL);
 
 }
-
-
 
